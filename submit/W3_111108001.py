@@ -31,5 +31,3 @@ print("matrix 最小值:", np.min(matrix))
 # 5. 隨機陣列
 rand_arr = np.random.rand(3, 3)
 print("3x3 隨機陣列:\n", rand_arr)
-
-print("Hello World")
