@@ -45,7 +45,7 @@ jobs:
           if [[ $NEW_COUNT -ne 1 ]]; then
             ERROR_MSG+="❌ 你必須只新增一個檔案在 submit/ 目錄中 (目前 $NEW_COUNT 個)\n"
           else
-            if ! echo "$NEW_FILES" | grep -qE '^submit/W3_[0-9]{9}\.py$'; then
+            if ! echo "$NEW_FILES" | grep -qE '^submit/W3＿[0-9]{9}\.py$'; then
               ERROR_MSG+="❌ 新增檔名必須符合 W3_(9位數字).py (目前: $NEW_FILES)\n"
             fi
           fi
